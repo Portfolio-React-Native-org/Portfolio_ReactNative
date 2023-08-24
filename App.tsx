@@ -1,10 +1,10 @@
 import React from 'react';
 import {Dimensions, StyleSheet, View,} from 'react-native';
+
 // import devgif from "./assets/gifs/developer-activity-animate.svg"
 // import Hero from './components/Hero';
 import Intro from './components/Intro';
 const {height} = Dimensions.get('screen')
-
 
 const App = () => {
   console.log(Dimensions.get('screen'));
