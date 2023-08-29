@@ -4,6 +4,7 @@ import {Dimensions, StyleSheet, View,} from 'react-native';
 // import devgif from "./assets/gifs/developer-activity-animate.svg"
 // import Hero from './components/Hero';
 import Intro from './components/Intro';
+import Body from './components/Body';
 const {height} = Dimensions.get('screen')
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         {/* <Image source={devgif} style={styles.dev_gif}/> */}
         {/* <Hero /> */}
          <Intro />
+         < Body />
     </View>
   );
 };
