@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, TouchableOpacity,StyleSheet} from "react-native";
+import {Text, TouchableOpacity,StyleSheet, } from "react-native";
 
 export default function Intro(props: any) {
     return(
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontFamily:'Ubuntu',
+        color: 'white',
         fontSize: 16,
         alignSelf: 'center',
         paddingTop: 12,
